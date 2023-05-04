@@ -58,8 +58,11 @@ export const Home = (): JSX.Element => {
               with code
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Student at Kenzie Academy Brazil and Alura!
+              <br /> Studying Information Systems at UEMS! <br />I have been
+              studying web development for over a year now, always looking to
+              solve different problems with code. I am always willing to learn
+              everything and deliver results!
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
