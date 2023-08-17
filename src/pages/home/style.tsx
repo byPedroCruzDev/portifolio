@@ -7,14 +7,14 @@ import meIlustration from "@/public/static/img/background/me-ilustration.svg";
 import backgroundImg from "@/public/static/img/background/header-bg.svg";
 
 import dots from "@/public/static/img/background/dots.svg";
-import backgroundImgPNG from "../../assets/0.jpg";
+import backgroundImgPNG from "../../assets/01.jpg";
 
 export const Header = styled("header", {
   backgroundColor: "$grey1",
   padding: "12rem 0 8rem 0",
   backgroundImage: `url(${backgroundImgPNG})`,
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "right",
+  backgroundRepeat: "repeat",
+  backgroundPosition: "center",
   backgroundAttachment: "fixed",
   borderBottom: "2px solid $grey5",
   "@tablet": {
